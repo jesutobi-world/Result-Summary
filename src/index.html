@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="./output.css" rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+<body class="bg-white w-screen h-screen flex items-center justify-center">
+  <div class="flex flex-col justify-between lg:rounded-3xl lg:overflow-hidden w-full h-screen lg:h-auto lg:flex-row lg:w-[55vw] shadow-2xl">
+    <div class="bg-gradient-to-b from-lightSlateBlue to-lightRoyalBlue flex flex-col rounded-b-3xl h-1/2 justify-between p-8 lg:h-full lg:w-1/2 items-center lg:justify-center lg:p-10 lg:rounded-3xl lg:gap-8">
+      <p class="text-lightLavender text-xl lg:font-semibold">Your Result</p>
+      <div class="bg-gradient-to-b from-violetBlue to-lightBlue rounded-full flex items-center justify-center flex-col w-[150px] h-[150px] lg:p-5">
+        <h1 class="text-white font-extrabold text-6xl">76</h1>
+        <p class="text-lightLavender text-base">of 100</p>
+      </div>
+      <p class="text-white font-bold lg:text-2xl">Great</p>
+      <p class="text-lightLavender text-base w-[80%] lg:text-sm lg:w-[220px] font-medium text-center">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+    <div class="h-1/2 lg:h-auto p-6 lg:w-1/2 lg:p-8 flex flex-col justify-between">
+      <div class="text-darkGrayBlue text-lg font-bold lg:text-xl">Summary</div>
+      <div class="flex flex-col gap-4">
+        <div class="bg-red-50 flex items-center justify-between p-3 rounded-xl">
+          <div class="flex gap-2">
+            <img src="./assets/images/icon-reaction.svg" alt="icon-reaction">
+            <p class="font-medium text-lightRed">Reaction</p>
+          </div>
+          <p>80/100</p>
+        </div>
+        <div class="bg-yellow-100 flex items-center justify-between p-3 rounded-xl">
+          <div class="flex gap-2">
+            <img src="./assets/images/icon-memory.svg" alt="icon-memory">
+            <p class="font-medium text-orangeyYellow">Memory</p>
+          </div>
+          <p>92/100</p>
+        </div>
+        <div class="bg-teal-50 flex items-center justify-between p-3 rounded-xl">
+          <div class="flex gap-2">
+            <img src="./assets/images/icon-verbal.svg" alt="icon-verbal">
+            <p class="font-medium text-greenTeal">Verbal</p>
+          </div>
+          <p>61/100</p>
+        </div>
+        <div class="bg-blue-50 flex items-center justify-between p-3 rounded-xl">
+          <div class="flex gap-2">
+            <img src="./assets/images/icon-visual.svg" alt="icon-visual">
+            <p class="font-medium text-cobaltBlue">Visual</p>
+          </div>
+          <p>72/100</p>
+        </div>
+      </div>
+      <div class="bg-darkGrayBlue w-full rounded-full text-center text-paleBlue font-semibold p-3 pb-3 hover:bg-lightRoyalBlue cursor-pointer" >Continue</div>
+    </div>
+  </div>
+</body>
+</html>
